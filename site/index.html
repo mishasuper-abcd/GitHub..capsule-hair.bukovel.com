@@ -1,1 +1,32 @@
-its worlk
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Буковель</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо до Буковеля!</h1>
+        <p>Найкраще місце для відпочинку в Карпатах</p>
+    </header>
+    
+    <main>
+        <section id="gallery">
+            <h2>Фотогалерея Буковеля</h2>
+            <div class="upload-form">
+                <form action="/upload" method="post" enctype="multipart/form-data">
+                    <label for="file">Завантажте ваше фото:</label>
+                    <input type="file" id="file" name="file">
+                    <input type="submit" value="Завантажити">
+                </form>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Буковель. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
